@@ -12,7 +12,7 @@ GET_DOWNLOADMUSIC1, GET_DOWNLOADMUSIC2 = range(2)
 
 def start(bot, update):
     update.message.reply_text(
-        "Hiiiiiii!\nI'm Mr. MeeTube, look at me!\n"
+        "Hiiiiiii!\nI'm YTMusic Bot, look at me!\n"
         "So, what can you do?\n\n"
         "/song - Get a song from YouTube!\n"
         "\nMiscellaneous:\n"
@@ -154,7 +154,7 @@ def error(bot, update, error):
     return ConversationHandler.END
 
 def main():
-    api_key = "INSERT HERE YOUR OWN"
+    api_key = "1426906186:AAGZk5qMoFWFTsXxJjYbhjaIb86qQBHpfVM"
     updater = Updater(api_key)
     dp = updater.dispatcher
 
