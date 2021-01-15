@@ -154,7 +154,7 @@ def error(bot, update, error):
     return ConversationHandler.END
 
 def main():
-    api_key = "1426906186:AAGZk5qMoFWFTsXxJjYbhjaIb86qQBHpfVM"
+    api_key = 
     updater = Updater(api_key)
     dp = updater.dispatcher
 
